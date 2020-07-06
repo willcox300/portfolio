@@ -1,3 +1,4 @@
+/* things styled in the body can effect the entire page */
 body {
   font-family: helvetica;
   background-color: #a9a9a9;
@@ -20,7 +21,8 @@ body {
   margin-bottom: 5px;
   font-size: 20px;
 }
-
+/* i was experimenting to get the right look. some of this code may not be beccessary. 
+I should take another look when time permits */
 #home {
     padding: 50px;
   }
@@ -71,7 +73,7 @@ a:hover {
 a:active {
   color: green;
 }
-
+/* i wanted to add a nav bar stickied to the top but was worried it was outside of the scope of the current assignment */
 #contact {
   background-color: #696969;
   text-align: center;
@@ -101,6 +103,8 @@ ul li {
   text-align: center;
   color: white;
  }
+ /* this element was added as a requirement for the assignment even though i do not like the 
+ aesthic. this will likely happen a lot when working on projects for or with other people. can't always have it your way */
  hr {
   height:2px;
   border-width:0;
@@ -108,3 +112,5 @@ ul li {
   background-color:black;
   margin: 0;
  }
+ /* it felt really weird to create this without consideration for making it responsive for mobile, but
+ that was difinitely outside the scope of the assignment */
